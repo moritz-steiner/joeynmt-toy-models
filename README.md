@@ -15,7 +15,7 @@ data, train and evaluate models.
 
 Clone this repository in the desired place:
 
-    git clone https://github.com/bricksdont/joeynmt-toy-models
+    git clone https://github.com/moritz-steiner/joeynmt-toy-models
     cd joeynmt-toy-models
 
 Create a new virtualenv that uses Python 3. Please make sure to run this command outside of any virtual Python environment:
@@ -27,21 +27,3 @@ Create a new virtualenv that uses Python 3. Please make sure to run this command
 Download and install required software:
 
     ./scripts/download_install_packages.sh
-
-Download and split data:
-
-    ./scripts/download_split_data.sh
-
-Preprocess data:
-
-    ./scripts/preprocess.sh
-
-Then finally train a model:
-
-    ./scripts/train.sh
-
-The training process can be interrupted at any time, and the best checkpoint will always be saved.
-
-Evaluate a trained model with
-
-    ./scripts/evaluate.sh
