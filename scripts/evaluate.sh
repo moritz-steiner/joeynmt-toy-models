@@ -22,3 +22,4 @@ device=5
 model_name=transformer_iwslt14_deen_bpe
 
 CUDA_VISIBLE_DEVICES=$device OMP_NUM_THREADS=$num_threads python -m joeynmt translate $configs/$model_name.yaml < $data/test.raw.$src > $translations/test.full.$model_name.$trg
+
