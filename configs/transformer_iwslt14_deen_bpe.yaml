@@ -14,7 +14,6 @@ data:
         voc_limit: 32000
         voc_min_freq: 1
         voc_file: "models/transformer_iwslt14_deen_bpe/src_vocab.txt"
-        #voc_file: "data/test.32000.vocab"
         tokenizer_type: "subword-nmt"
         tokenizer_cfg:
             pretokenizer: "moses"
@@ -28,7 +27,6 @@ data:
         voc_limit: 32000
         voc_min_freq: 1
         voc_file: "models/transformer_iwslt14_deen_bpe/src_vocab.txt"
-        #voc_file: "shared_models/vocab.txt"
         tokenizer_type: "subword-nmt"
         tokenizer_cfg:
             codes: "models/transformer_iwslt14_deen_bpe/bpe.32000"
