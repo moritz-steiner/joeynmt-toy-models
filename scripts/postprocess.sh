@@ -18,5 +18,5 @@ MOSES=$tools/moses-scripts/scripts
 
 # redo tokenization one way
 
-cat $translations/test.full.$model_name.$trg | $MOSES/tokenizer/tokenizer.perl $trg > $translations/test.retokenized.$model_name.$trg
+cat $translations/test.full.$model_name.$trg | $MOSES/tokenizer/tokenizer.perl -l $trg > $translations/test.retokenized.$model_name.$trg
 
