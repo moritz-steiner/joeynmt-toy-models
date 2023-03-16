@@ -27,3 +27,7 @@ Create a new virtualenv that uses Python 3. Please make sure to run this command
 Download and install required software:
 
     ./scripts/download_install_packages.sh
+    
+Have a look at the example scripts how to train a model. You do not need to execute them for this exercise, as you will be using a pre-trained model
+
+    scripts/train.sh
