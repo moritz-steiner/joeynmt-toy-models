@@ -1,7 +1,7 @@
 # joeynmt-toy-models
 
-This repo is just a collection of scripts showing how to install [JoeyNMT](https://github.com/joeynmt/joeynmt), preprocess
-data, train and evaluate models.
+This repo is just a collection of scripts showing how to install [JoeyNMT](https://github.com/joeynmt/joeynmt), train and evaluate models.
+It is a fork of [this](https://github.com/bricksdont/joeynmt-toy-models) original repo.
 
 # Requirements
 
