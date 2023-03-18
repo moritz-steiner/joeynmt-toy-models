@@ -17,3 +17,5 @@ git clone https://github.com/joeynmt/joeynmt.git $tools/joeynmt
 # install Moses scripts for preprocessing
 
 git clone https://github.com/bricksdont/moses-scripts $tools/moses-scripts
+
+pip3 install sacremoses
